@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.dark-grey-bg{
+    background-color: #353f47;
+}
+
+body {
+    font-family: sans,arial,sans-serif;
+
+}
+/*logo*/
+.navbar-brand{
+    color: #fff !important;
+    font-size: 30px;
+    padding: 14px 16px;
+    margin: 0 0 0 55px;
+}
+
+.nav-title{
+    color: #adde13;
+}
+
+/*Navbar*/
+.nav{
+    background-color: #353f47;
+}
+
+.nav .link{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 14px 16px;
+    margin: 14px 16px;
+    text-decoration: none;
+}
+/*Decoratief balk onder de navbar*/
+.BoxUnderNav{
+    background-color: #364a63;
+    padding: 55px;
+}
+
+.pageTitle{
+    color: #fff;
+}
+
+.pageTitle h1{
+    text-align: center;
+    margin: -35px 0 45px;
+}
+
+/*content van de witte div*/
+
+.content{
+    background-color: #ffffff;
+    padding: 15px;
+    margin-top: -80px;
+    min-height: 200px;
+    font-family: sans,arial,sans-serif;
+    column-count: 2;
+    column-gap: 50px;
+    column-rule: 4px double #364a63;
+    width: 100%;
+}
+
+.over_ons_img{
+margin: -20px 0 0 0px;
+}
+
+/*tweede container*/
+.wrapper2{
+    margin: 40px 0 0 0;
+}
+
+.content2{
+    background-color: #ffffff;
+    padding: 15px;
+    font-family: sans,arial,sans-serif;
+    width: 1110px;
+    height: 384px;
+}
+
+/*Footer*/
+.footer-links a{
+    text-decoration: none;
+    color: #515f67;
+    border-right: solid 1px #515f67;
+    padding: 0 15px ;
+
+}
+
+.footer-links a:last-child{
+    text-decoration: none;
+    color: #515f67;
+    border-right: none;
+
+}
+.footer-links a:hover{
+    text-decoration: none;
+    color: #515f67;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 45px;
+}
+.footer-links{
+    color: #515f67;
+}
+.copyright{
+    color: #515f67;
+    padding: 40px 40px;
+}
+
+.fish{
+    padding: 0 30px 0 0;
+}
+
+
+
+
