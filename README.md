@@ -1,3 +1,5 @@
 # aquariumgame
 
-test test
+aquarium game for school project
+
+(@adamDzik) / (@coldijkx) / (@michligtenberg)
