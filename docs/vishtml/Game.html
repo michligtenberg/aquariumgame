@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viswinkel</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Vis Game</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/fish_footer.svg">
+    <script>
+        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/vishtml.json", {onProgress: UnityProgress});
+    </script>
+</head>
+<body>
+<!--navbar-->
+<div class="nav">
+    <a class="navbar-brand col-2" href="../../index.html">VIS<span class="nav-title">WINKEL</span></a>
+    <a class="link" href="../../index.html">Home</a>
+    <a class="link" href="Game.html">Game</a>
+    <a class="link" href="#">Acties</a>
+    <a class="link" href="#">Info</a>
+</div>
+<!--blauwe onderdeel onder de navbar-->
+<div class="wrapper">
+    <div class="BoxUnderNav">
+        <div class="pageTitle">
+            <h1>Onze Nieuwe Game!</h1>
+        </div>
+    </div>
+</div>
+<!--Game Container-->
+<div class="wrapper2">
+    <div class="container">
+            <div class="webgl-content">
+                <div id="unityContainer" style="width: 960px; height: 600px"></div>
+                <div class="footer">
+                    <div class="webgl-logo"></div>
+                    <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+                    <div class="title">Vis Game</div>
+                </div>
+    </div>
+</div>
+
+
+<!--footer-->
+<div class="dark-grey-bg">
+    <div class="wrapper footer-flex" >
+        <div class="footer-links">
+            <img class="fish" src="../img/fish_footer.svg" alt="fish" width="100" height="110">
+            <a href="#home">HOME</a>
+            <a href="#services">SERVICES</a>
+            <a href="#portfolio">PRODUCTEN</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+        <div class="copyright">
+            <p>2013 ©</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
