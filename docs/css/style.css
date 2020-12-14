@@ -94,8 +94,12 @@ margin: -20px 0 0 0px;
 }
 
 /*Game Wrapper*/
+.webgl-content{
+    margin-top: 140px;
+}
+
 .GameWrapper{
-    margin: 650px 0 0 0;
+    margin: 750px 0 0 0;
 }
 
 
