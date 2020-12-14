@@ -82,7 +82,7 @@ margin: -20px 0 0 0px;
 
 /*tweede container*/
 .wrapper2{
-    margin: 40px 0 0 0;
+    margin: 40px 0 110px 0;
 }
 
 .content2{
@@ -93,7 +93,17 @@ margin: -20px 0 0 0px;
     height: 384px;
 }
 
+/*Game Wrapper*/
+.GameWrapper{
+    margin: 650px 0 0 0;
+}
+
+
 /*Footer*/
+.VisFooter{
+    margin: 100px;
+}
+
 .footer-links a{
     text-decoration: none;
     color: #515f67;
